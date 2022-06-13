@@ -134,7 +134,7 @@ input {
 .btn {
     border: none;
     background: rgba(var(--d69,0,149,246),1);
-    color: white;
+    color: white !important;
     width: 270px;
     height: 32px;
     border-radius: 4px;
