@@ -117,12 +117,17 @@ input {
     width: 260px;
     height: 36px;
     margin-top: 10px;
-    color: #000;
     font-size: 14px;
     border-color: none;
 
 }
 
+#input1 {
+    color: black;
+}
+#input2 {
+    color: black;
+}
 .oublie {
     margin-top: 5px;
     float: right;
@@ -134,7 +139,7 @@ input {
 .btn {
     border: none;
     background: rgba(var(--d69,0,149,246),1);
-    color: white !important;
+    color: #fff;
     width: 270px;
     height: 32px;
     border-radius: 4px;
