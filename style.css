@@ -18,7 +18,7 @@ body {
     margin: auto;
     position: absolute;
     top: 11%;
-    transform: translateX(58%);
+    transform: translateX(60%) !important;
 }
 
 .btn-facebook {
