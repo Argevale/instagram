@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@800&display=swap');
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden; 
+}
+
+
+.img {
+    display: block;
+    width: 175px;
+    height: 51px;
+    margin: auto;
+    position: absolute;
+    top: 11%;
+    transform: translateX(52%);
+}
+
+.btn-facebook {
+    border: none;
+    background: rgba(var(--d69,0,149,246),1);
+    color: white;
+    width: 270px;
+    height: 32px;
+    border-radius: 4px;
+    margin: auto;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    z-index: -2;
+}
+
+.icone {
+    display: block;
+    height: 16px;
+    width: 16px;
+    position: absolute;
+    top: 25%;
+    left: 27%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+
+}
+
+.text-btn {
+    position: absolute;
+    top: 25%;
+    left: 52%;
+    transform: translate(-44%, -50%);
+    font-family: 'Lato', sans-serif;
+    font-weight: 1000;
+    cursor: pointer;
+    font-size: 14px;
+    color: white;
+    z-index: -1;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.line {
+    display: inline-block;
+    width: 107px;
+    height: 1px;
+    background-color: grey;
+    transform: translate(-44%, -50%);
+    margin: 10px;
+}
+
+#line1 {
+    position: absolute;
+    top: 30%;
+    left: 27%;
+    transform: translate(-50%, -50%);
+    background-color: #dbdbdb;
+}
+
+
+#line2 {
+    position: absolute;
+    top: 30%;
+    left: 77%;
+    transform: translate(-50%, -50%);
+    background-color: #dbdbdb;
+}
+
+.ou {
+    position: absolute;
+    top: 31%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #8e8e8e;
+    font-family: 'Lato', sans-serif;
+    font-weight: 1000;
+    font-size: 14px;
+    text-transform: uppercase;
+    right: 190px;
+}
+
+form {
+    margin-top: 300px;
+}
+
+input {
+    margin-left: 50%;
+    transform: translate(-50%, -50%);
+    width: 260px;
+    height: 36px;
+    margin-top: 10px;
+    color: #8e8e8e;
+    font-size: 14px;
+    border-color: none;
+
+}
+
+.oublie {
+    margin-top: 5px;
+    float: right;
+    margin-right: 30px;
+    margin-bottom: 40px;
+    color: rgba(var(--d69,0,149,246),1);
+}
+
+.btn {
+    border: none;
+    background: rgba(var(--d69,0,149,246),1);
+    color: white;
+    width: 270px;
+    height: 32px;
+    border-radius: 4px;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.inscription {
+    text-align: center;
+    color: #8e8e8e;
+    font-family: 'Lato', sans-serif;
+    margin: 18px;
+    font-size: 15px;
+}
+
+.lien {
+    color: rgb(34, 150, 238);
+    font-family: 'Lato', sans-serif;
+}
+
